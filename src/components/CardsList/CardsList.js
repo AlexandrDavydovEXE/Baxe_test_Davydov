@@ -6,9 +6,9 @@ export default function CardsList() {
   return (
     <View style={styles.scrollView} testID="CardsList">
       <ScrollView horizontal>
-        {mockData.map(item => (
-          <Card {...item} />
-        ))}
+        {/*{mockData.map(item => (*/}
+        {/*  <Card {...item} />*/}
+        {/*))}*/}
       </ScrollView>
     </View>
   );

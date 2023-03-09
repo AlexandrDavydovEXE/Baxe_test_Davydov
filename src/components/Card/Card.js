@@ -1,8 +1,7 @@
 // @flow
 import * as React from 'react';
 import styles from './Card.styles';
-import {ImageBackground, View, Text, Pressable} from 'react-native';
-import {LinearGradient} from 'react-native-svg';
+import {View, Text} from 'react-native';
 import {getTestProps} from '../../helpers/test-props';
 import {
   PROMOTION_CARD,
@@ -64,9 +63,9 @@ export const Card: FunctionComponent<CardProps> = ({
           {/*  justifyContent="space-between"*/}
           {/*  px="6"*/}
           {/*  pb="3">*/}
-          <WrappedButton title={'Deposit'} icon={<DepositIcon />} />
-          <WrappedButton title={'Transfer'} icon={<TransferIcon />} />
-          <WrappedButton icon={<PointsIcon />} />
+          {/*<WrappedButton title={'Deposit'} icon={<DepositIcon />} />*/}
+          {/*<WrappedButton title={'Transfer'} icon={<TransferIcon />} />*/}
+          {/*<WrappedButton icon={<PointsIcon />} />*/}
           {/*</Box>*/}
         </View>
       </View>

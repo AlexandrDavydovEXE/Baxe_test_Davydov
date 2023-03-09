@@ -1,6 +1,5 @@
 import {SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
 import {
-  Colors,
   DebugInstructions,
   LearnMoreLinks,
   ReloadInstructions,
@@ -66,6 +65,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#DEE0E2',
   },
   scrollView: {
-    backgroundColor: Colors.white,
+    backgroundColor: 'white',
   },
 });

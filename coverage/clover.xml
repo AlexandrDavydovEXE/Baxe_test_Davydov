@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1678207996173" clover="3.2.0">
+  <project timestamp="1678207996173" name="All files">
+    <metrics statements="32" coveredstatements="20" conditionals="13" coveredconditionals="0" methods="12" coveredmethods="0" elements="57" coveredelements="20" complexity="0" loc="32" ncloc="32" packages="5" files="10" classes="10"/>
+    <package name="components.Buttons">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="WrappedButton.tsx" path="/Users/alexdavydov/WebstormProjects/Baxe_test_Davydov/src/components/Buttons/WrappedButton.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Card">
+      <metrics statements="14" coveredstatements="13" conditionals="10" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Card.selectors.js" path="/Users/alexdavydov/WebstormProjects/Baxe_test_Davydov/src/components/Card/Card.selectors.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="Card.styles.ts" path="/Users/alexdavydov/WebstormProjects/Baxe_test_Davydov/src/components/Card/Card.styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="Card.js" path="/Users/alexdavydov/WebstormProjects/Baxe_test_Davydov/src/components/Card/Card.js">
+        <metrics statements="2" coveredstatements="1" conditionals="10" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.CardsList">
+      <metrics statements="8" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="CardsList.js" path="/Users/alexdavydov/WebstormProjects/Baxe_test_Davydov/src/components/CardsList/CardsList.js">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="mockData.js" path="/Users/alexdavydov/WebstormProjects/Baxe_test_Davydov/src/components/CardsList/mockData.js">
+        <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="helpers">
+      <metrics statements="2" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="test-props.ts" path="/Users/alexdavydov/WebstormProjects/Baxe_test_Davydov/src/helpers/test-props.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+    </package>
+    <package name="icons">
+      <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="DepositIcon.js" path="/Users/alexdavydov/WebstormProjects/Baxe_test_Davydov/src/icons/DepositIcon.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="PointsIcon.js" path="/Users/alexdavydov/WebstormProjects/Baxe_test_Davydov/src/icons/PointsIcon.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="TransferIcon.js" path="/Users/alexdavydov/WebstormProjects/Baxe_test_Davydov/src/icons/TransferIcon.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

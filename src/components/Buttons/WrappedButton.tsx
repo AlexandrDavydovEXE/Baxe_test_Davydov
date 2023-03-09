@@ -7,28 +7,25 @@ import {
   StyleProp,
   ViewStyle,
 } from 'react-native';
+import {Button, Box} from 'native-base';
 
 interface Props {
-  title: string;
-  buttonStyle?: StyleProp<ViewStyle>;
+  title?: string;
   icon?: any;
   onPress?: () => void;
 }
 
-export const Button: React.FC<Props> = ({
-  title,
-  icon,
-  buttonStyle,
-  onPress,
-}) => {
+export const WrappedButton: React.FC<Props> = ({title, icon, onPress}) => {
   return (
-    <TouchableOpacity onPress={onPress} style={buttonStyle}>
-      <View>
-        <Image source={icon} />
-      </View>
-      <View>
-        <Text style={{color: 'white'}}>{title}</Text>
-      </View>
-    </TouchableOpacity>
+    <Button
+      variant="link"
+      size="md"
+      onPress={onPress}
+      leftIcon={icon}
+      _text={{fontWeight: '400', color: 'white'}}
+      pl="0"
+      m="0">
+      {title}
+    </Button>
   );
 };

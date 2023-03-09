@@ -1,0 +1,6 @@
+
+    exports[`app renders correctly 1`] = `
+<View style={{flex: 1, backgroundColor: 'red'}}>
+      <Text>Test</Text>
+    </View>
+    `

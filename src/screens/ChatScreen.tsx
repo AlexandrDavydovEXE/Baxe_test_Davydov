@@ -1,5 +1,7 @@
-import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import {SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
 import Header from '../components/Header';
+import {Card} from '../components/Card/Card';
+import CardsList from '../components/CardsList/CardsList';
 
 export default function ChatScreen() {
   return (
@@ -7,6 +9,7 @@ export default function ChatScreen() {
       <Header />
       <View style={styles.viewBox}>
         <Text>Chat Screen!</Text>
+        <CardsList />
       </View>
     </SafeAreaView>
   );
