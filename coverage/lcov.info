@@ -42,7 +42,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Card/Card.js
+SF:src/components/Card/Card.tsx
 FN:25,(anonymous_0)
 FNF:1
 FNH:0
@@ -65,7 +65,7 @@ BRF:10
 BRH:0
 end_of_record
 TN:
-SF:src/components/CardsList/CardsList.js
+SF:src/components/CardsList/CardsList.tsx
 FN:5,CardsList
 FN:9,(anonymous_1)
 FNF:2

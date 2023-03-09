@@ -30,7 +30,7 @@
         <line num="6" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
       </file>
-      <file name="Card.js" path="/Users/alexdavydov/WebstormProjects/Baxe_test_Davydov/src/components/Card/Card.js">
+      <file name="Card.tsx" path="/Users/alexdavydov/WebstormProjects/Baxe_test_Davydov/src/components/Card/Card.tsx">
         <metrics statements="2" coveredstatements="1" conditionals="10" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="25" count="1" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
@@ -38,7 +38,7 @@
     </package>
     <package name="components.CardsList">
       <metrics statements="8" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
-      <file name="CardsList.js" path="/Users/alexdavydov/WebstormProjects/Baxe_test_Davydov/src/components/CardsList/CardsList.js">
+      <file name="CardsList.tsx" path="/Users/alexdavydov/WebstormProjects/Baxe_test_Davydov/src/components/CardsList/CardsList.tsx">
         <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="6" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>

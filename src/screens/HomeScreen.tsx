@@ -20,7 +20,7 @@ function Section({children, title}: SectionProps): JSX.Element {
   );
 }
 
-export default function HomeScreen() {
+export default function HomeScreen(): JSX.Element {
   return (
     <SafeAreaView style={styles.safeArea}>
       <Header />

@@ -1,32 +1,18 @@
 import {StyleSheet} from 'react-native';
-// import {Dimensions} from 'react-native';
+import {Dimensions} from 'react-native';
 
-// let deviceWidth = Dimensions.get('window').width;
-let deviceWidth = 500;
+let deviceWidth = Dimensions.get('window').width;
 
 const heights = {
-  'promo-card-width-percentage': 0.88,
   'promo-card-height': 204,
   'promo-content-max-width': 192,
-  'promo-terms-and-conditions-min-width': 136,
-  'promo-action-max-width': 155,
-  'promo-odds-boost-tag-height': 18,
-  'bet-button-height': 60,
-  'bet-button-width': 64,
 };
 
 const spacings = {
-  'spacing-half': 2,
   'spacing-1': 4,
-  'spacing-2': 8,
   'spacing-3': 12,
-  'spacing-4': 16,
   'spacing-5': 20,
-  'spacing-6': 24,
-  'spacing-7': 28,
-  'spacing-8': 32,
   'spacing-10': 40,
-  'spacing-12': 48,
 };
 
 export default StyleSheet.create({
@@ -40,7 +26,6 @@ export default StyleSheet.create({
     borderWidth: 2,
     borderColor: 'yellow',
     marginHorizontal: 10,
-    // borderColor: '#D8D8D8B2',
   },
   promotionBody: {
     height: '75%',
@@ -61,7 +46,7 @@ export default StyleSheet.create({
     color: 'darkgrey',
     textTransform: 'capitalize',
   },
-  termsAndConditionsSummary: {
+  amount: {
     marginTop: spacings['spacing-1'],
     maxWidth: heights['promo-content-max-width'],
     color: 'darkgrey',

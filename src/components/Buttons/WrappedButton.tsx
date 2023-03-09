@@ -1,17 +1,9 @@
 import React from 'react';
-import {
-  TouchableOpacity,
-  Text,
-  View,
-  Image,
-  StyleProp,
-  ViewStyle,
-} from 'react-native';
-import {Button, Box} from 'native-base';
+import {Button} from 'native-base';
 
 interface Props {
   title?: string;
-  icon?: any;
+  icon?: JSX.Element | JSX.Element[];
   onPress?: () => void;
 }
 

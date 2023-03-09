@@ -1,10 +1,10 @@
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
-import ChatIcon from '../icons/ChatIcon';
-import HomeIcon from '../icons/HomeIcon';
-import CommunityIcon from '../icons/Community';
-import FinanceIcon from '../icons/Finance';
-import EcosystemIcon from '../icons/Ecosystem';
+import ChatIcon from '../../assets/icons/ChatIcon';
+import HomeIcon from '../../assets/icons/HomeIcon';
+import CommunityIcon from '../../assets/icons/Community';
+import FinanceIcon from '../../assets/icons/Finance';
+import EcosystemIcon from '../../assets/icons/Ecosystem';
 import HomeScreen from '../screens/HomeScreen';
 import ChatScreen from '../screens/ChatScreen';
 import React from 'react';

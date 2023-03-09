@@ -1,8 +1,6 @@
 {
   "presets": [
-    [
-      "module:metro-react-native-babel-preset"
-    ],
+    ["module:metro-react-native-babel-preset"],
     [
       "@babel/preset-env",
       {
@@ -13,7 +11,5 @@
     ],
     "@babel/preset-typescript"
   ],
-  "plugins": [
-    "@babel/plugin-proposal-class-properties"
-  ]
+  "plugins": ["@babel/plugin-proposal-class-properties"]
 }
